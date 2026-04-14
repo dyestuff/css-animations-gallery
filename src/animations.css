@@ -1,0 +1,10 @@
+/* CSS Animation Gallery - All animations defined here */
+
+@keyframes pulseRing {
+  0% { transform: scale(0.5); opacity: 1; }
+  100% { transform: scale(1.5); opacity: 0; }
+}
+
+.anim-pulse-ring {
+  animation: pulseRing 1.5s ease-out infinite;
+}
